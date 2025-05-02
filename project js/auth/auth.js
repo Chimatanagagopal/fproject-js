@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 .then((userCredential) => {
                     // showToast("Login successful!");
                     alert("Login successful!");
-                    window.location.href = "./Games/again/againgame.html"; 
+                    window.location.href = "./Games/Again/againgame.html"; 
 
                     console.log("User:", userCredential.user);
                 })
